@@ -1,3 +1,10 @@
+import bookGatsby from "@/assets/book-gatsby.jpg";
+import bookMockingbird from "@/assets/book-mockingbird.jpg";
+import book1984 from "@/assets/book-1984.jpg";
+import bookPride from "@/assets/book-pride.jpg";
+import bookCatcher from "@/assets/book-catcher.jpg";
+import bookHarry from "@/assets/book-harry.jpg";
+
 export interface Book {
   id: string;
   title: string;
@@ -34,7 +41,7 @@ export const books: Book[] = [
     cost: 12.99,
     available: 3,
     total: 5,
-    image: "/src/assets/book-gatsby.jpg",
+    image: bookGatsby,
     description: "A classic American novel set in the Jazz Age, exploring themes of wealth, love, and the American Dream.",
     publishYear: 1925,
   },
@@ -47,7 +54,7 @@ export const books: Book[] = [
     cost: 14.99,
     available: 2,
     total: 4,
-    image: "/src/assets/book-mockingbird.jpg",
+    image: bookMockingbird,
     description: "A powerful story of racial injustice and childhood innocence in the American South.",
     publishYear: 1960,
   },
@@ -60,7 +67,7 @@ export const books: Book[] = [
     cost: 13.99,
     available: 4,
     total: 6,
-    image: "/src/assets/book-1984.jpg",
+    image: book1984,
     description: "A dystopian social science fiction novel exploring surveillance, truth, and totalitarianism.",
     publishYear: 1949,
   },
@@ -73,7 +80,7 @@ export const books: Book[] = [
     cost: 11.99,
     available: 5,
     total: 7,
-    image: "/src/assets/book-pride.jpg",
+    image: bookPride,
     description: "A romantic novel of manners about love, marriage, and social class in 19th century England.",
     publishYear: 1813,
   },
@@ -86,7 +93,7 @@ export const books: Book[] = [
     cost: 12.49,
     available: 0,
     total: 3,
-    image: "/src/assets/book-catcher.jpg",
+    image: bookCatcher,
     description: "A story about teenage rebellion and alienation, told through the eyes of Holden Caulfield.",
     publishYear: 1951,
   },
@@ -99,7 +106,7 @@ export const books: Book[] = [
     cost: 15.99,
     available: 6,
     total: 10,
-    image: "/src/assets/book-harry.jpg",
+    image: bookHarry,
     description: "The magical beginning of Harry Potter's journey at Hogwarts School of Witchcraft and Wizardry.",
     publishYear: 1997,
   },
